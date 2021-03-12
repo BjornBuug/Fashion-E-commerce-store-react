@@ -5,27 +5,34 @@ const sublinks = [
     {
         page: 'About',
         links: [
-            {label : 'payment', icon : <FaCreditCard/>, url: '/products'},
-            {label : 'terminal', icon : <FaCreditCard/>, url: '/products'},
-            {label : 'connect', icon : <FaCreditCard/>, url: '/products'},
+            {label : 'payment', icon: "", url: '/products'},
+            {label : 'Our story', icon: "", url: '/products'},
+            {label : 'connect', icon: "", url: '/products'},
         ],
     },
 
     {
         page :'Catalog', 
         links: [
-            {label : 'plugins', icon: <FaBook/>, url: '/products'},
-            {label : 'libraries', icon: <FaBook/>, url: '/products'},
-            {label : 'help', icon: <FaBook/>, url: '/products'},
-            {label : 'billings', icon: <FaBook/>, url: '/products'},
+            {label : 'Pants', icon: "", url: '/products'},
+            {label : 'Shoes', icon: "", url: '/products'},
+            
         ],
     },
 
     {
         page :'Contact',
         links: [
-            {label: 'about', icon: <FaBriefcase/>, url:'/products'},
-            {label:'customers', icon: <FaBriefcase/>, url:'/products' },
+            {label: 'about', icon: "", url:'/products'},
+            {label:'customers', icon: "", url:'/products' },
+
+        ],
+    },
+
+    {
+        page :'Cart',
+        links: [
+            
 
         ],
     },

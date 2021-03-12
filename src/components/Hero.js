@@ -3,8 +3,6 @@ import {useGlobalContext} from './Globalcontext'
 
 
 const Hero = () => {
-    const {closeSubmenu} = useGlobalContext();
-
     return (
         <section className="hero">
             <div className="hero-center">

@@ -19,6 +19,7 @@ const Navbar = () => {
     return (
         <nav className="nav">
             <div className="nav-center">
+             {/* <a href="#" className="logo">Diamond</a> */}
                 <div className="nav-header">
                     {/* <img src={logo} className="nav-logo" alt="stripe"/> */}
                     <button className="btn toggle-btn" onClick={openSideBar}>
@@ -27,9 +28,10 @@ const Navbar = () => {
                 </div>
 
                 <ul className="nav-links">
-                    <li><button className="link-btn" >About</button></li>
-                    <li><button className="link-btn" >Catalog</button></li>
-                    <li><button className="link-btn" >Contact</button></li>
+                    <li><a className="link" >About</a></li>
+                    <li><a className="link" >Catalog</a></li>
+                    <li><a className="link" >Contact</a></li>
+                    <li><a className="link" >Cart</a></li>
                 </ul>
                 
 
