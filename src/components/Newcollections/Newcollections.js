@@ -47,9 +47,7 @@ const Newcollections = () => {
                        Prints are meant to be fresh on light backgrounds suggesting sunny day.
                        </p>
         </div>
-        </div>
 
-        <div className="cards">
         <div className="card">
             <div className="imgBox">
                 <img src={model2} alt="model"/>
@@ -85,9 +83,6 @@ const Newcollections = () => {
             </div>
         </div>
 
-        </div>
-
-        <div className="cards">
         <div className="card">
             <div className="imgBox">
                 <img src={model8} alt="model"/>
@@ -121,10 +116,8 @@ const Newcollections = () => {
                 <h2 className="price">$21.<small>99</small></h2>
                 <a href="#" className="buy">Buy Now</a>
             </div>
+         </div>
         </div>
-
-        </div>
-
     </section>  
     )
 }

@@ -1,7 +1,7 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .section-b {
@@ -21,14 +21,17 @@ body {
     justify-content: center;
     padding: 50px;
     background: #F0E3E3;
+    width: 100%;
     
 }
 
 .section-b .cards .card {
     position: relative;
     width: 345px;
-    height: 612px;
+    height: 587px;
     background: #F9FAF9;
+    margin-bottom: 25px;
+    
 }
 
 
@@ -58,11 +61,13 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 10px;
+    margin: auto;
 }
 
 .section-b .cards .card .contentBox h3 {
     font-size: 16px;
     text-transform: uppercase;
+    padding-top: 5px;
 }
 
 .section-b .cards .card .contentBox .price {
@@ -81,13 +86,14 @@ body {
     letter-spacing: 1px;
     font-weight: 500;
     text-decoration: none;
-    margin-top: 15px;
+    margin-top: 0px;
     cursor: pointer;
     border-radius: 5px;
 }
 
 .section-b .cards .collections-text {
     margin-top: 20px;
+    width: 100%;
 }
 
 .section-b .cards .collections-text h1 {
@@ -106,7 +112,105 @@ body {
     color: black;
     letter-spacing: 0.5px;
     line-height: 29px;
+    max-width: 100%;
 }
+
+@media(max-width : 991px) {
+    .section-b .cards {
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .section-b .cards .collections-text {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        max-width: 95%;
+    }
+
+    .section-b .cards .collections-text h1 {
+        font-size: 35px;
+        max-width: 54%;
+    }
+
+    .section-b .cards .collections-text p {
+        font-size: 17px;
+        max-width: 100%;
+    }
+  
+}
+
+@media (max-width : 640px) {
+    .section-b .cards {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .section-b .cards .collections-text {
+        max-width: 95%;
+        margin-left: 5px;
+    }
+
+    .section-b .cards .collections-text h1 {
+        font-size: 35px;
+        
+    }
+
+    .section-b .cards .collections-text p {
+        font-size: 17px;
+        max-width: 90%;
+    }
+
+    .section-b .cards .card {
+        width: 257px;
+        height: 466px;
+    }
+
+    .section-b .cards .card .contentBox h3 {
+        font-size: 12px;
+    }
+
+    .section-b .cards .card .contentBox .price {
+        font-size: 14px;
+    }
+
+    .section-b .cards .card .contentBox .buy {
+        padding: 8px 15px;
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .section-b .cards  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        order: 1;
+    }
+
+
+
+    .section-b h1 {
+        font-size: 35px;
+    }
+
+    .section-b .cards .collections-text h1 {
+        max-width: 93%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .section-b .cards .collections-text {
+        max-width: 88%;
+        text-align: center;
+}
+    
+    
+  }
 
 
 

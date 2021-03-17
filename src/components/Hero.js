@@ -9,8 +9,8 @@ const Hero = () => {
                 <article className="hero-info">
                     <h1>
                     Best trends<br /> 
-                    are a blast <br /> 
-                    from the past
+                    for Spring <br /> 
+                    from <br /> the past
                     </h1>
                     <p>
                     Our extensive selection of gems feature ten different shapes as well as 
