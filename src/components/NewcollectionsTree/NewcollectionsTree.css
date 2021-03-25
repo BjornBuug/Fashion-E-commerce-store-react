@@ -1,0 +1,104 @@
+.section-d {
+    background: #fff;
+    height: 100%;
+}
+
+.section-d h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.section-d .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+    background:#fff;
+    width: 100%;
+}
+
+.section-d .cards .card .numb-title {
+    font-size: 17px;
+    margin: 0px 0px 0px 22px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    
+}
+
+.section-d .cards .card {
+    position: relative;
+    width: 430px;
+    height: 603px;
+    margin-bottom: 25px;
+}
+
+
+.section-d .cards .card .imgBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+}
+
+.section-d .cards .card .imgBox img {
+    max-width: 90%;
+    margin-top: 12px;
+    transition: 0.5s;
+}
+
+/* .section-d .cards .card .imgBox img:hover {
+    max-width: 85%;
+} */
+
+.section-d .cards .card .contentBox {
+    margin: 10px 0px 30px 23px;
+}
+
+.section-d .cards .card .contentBox h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.section-d .cards .card .contentBox h3 span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-d .cards .card .contentBox .price {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.section-d .cards .collections-text {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.section-d .cards .collections-text h1 {
+    font-size: 50px;
+    text-align: left;
+    font-size: 50px;
+    text-align: left;
+    padding: 20px;
+    background: black;
+    color: #fff;
+}
+
+.section-d .cards .collections-text p {
+    font-size: 20px;
+    padding-top: 12px;
+    color: black;
+    letter-spacing: 0.5px;
+    line-height: 29px;
+    max-width: 100%;
+}

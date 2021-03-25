@@ -1,5 +1,6 @@
 import React from 'react'
-import {useGlobalContext} from './Globalcontext'
+import {useGlobalContext} from './Globalcontext';
+import Button from '../components/Button/Button'
 
 
 const Hero = () => {
@@ -8,9 +9,9 @@ const Hero = () => {
             <div className="hero-center">
                 <article className="hero-info">
                     <h1>
-                    Best trends<br /> 
-                    for Spring <br /> 
-                    from <br /> the past
+                    Any Variation<br /> 
+                    That Fits Your <br />
+                    Imagination
                     </h1>
                     <p>
                     Our extensive selection of gems feature ten different shapes as well as 

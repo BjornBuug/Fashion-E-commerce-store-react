@@ -163,6 +163,7 @@ Stripe Styles
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .hero-center {
   width: 90vw;
   max-width: 1170px;
@@ -183,6 +184,7 @@ Stripe Styles
   max-width: 20em;
   line-height: 1.8;
   color: #fff;
+  font-size: 20px;
 }
 .hero-images {
   display: none;

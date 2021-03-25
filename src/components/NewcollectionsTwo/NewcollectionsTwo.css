@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-c {
+    background-color: #fff;
+    color: black;
+    padding: 80px 0 70px;
+    
+}
+
+.section-c .row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.section-c .row .col50 {
+  position: relative;
+  width: 50%;
+  margin-left: 100px;
+}
+
+.section-c .row .col50 h4 {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 0px 13px;
+
+}
+
+.section-c .row .col50 h1 {
+  font-size: 3rem;
+  line-height: 57px;
+  margin-bottom: 35px;
+}
+
+.section-c .row .col50 p {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  padding-bottom: 16px;
+}
+
+.section-c .row .col50 .img-box {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+}
+
+.section-c .row .col50 .img-box img {
+  max-width: 100%;
+}
+
+
+
+@media (max-width : 991px) {
+  .section-c .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .section-b h1 {
+    text-align: left;
+    padding-left: 26px;
+}
+
+  .section-c .row .col50 {
+    width: 100%;
+  }
+
+  .section-c .row .col50 h1 {
+    max-width: 80%;
+    font-size: 2.5rem;
+  }
+
+.section-c .row .col50 p {
+  max-width: 70%;
+  padding-bottom: 6px;
+}
+
+.section-c .row .col50 .img-box {
+  margin-top: 50px;
+  max-width: 85%;
+ 
+}
+
+}

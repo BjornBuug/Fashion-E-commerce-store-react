@@ -7,6 +7,8 @@ import model5 from '../../images/Model5.jpg';
 import model6 from '../../images/Model6.jpg';
 import model7 from '../../images/Model7.jpg';
 import model8 from '../../images/Model8.jpg';
+import Button from '../Button/Button'
+
 
 import  './Newcollections.css';
 
@@ -24,7 +26,7 @@ const Newcollections = () => {
             <div className="contentBox">
                 <h3>Pants</h3>
                 <h2 className="price">$20.<small>99</small></h2>
-                <a href="#" className="buy">Buy Now</a>
+                <Button text="Buy Now"/>
             </div>
         </div>
 
@@ -36,7 +38,7 @@ const Newcollections = () => {
             <div className="contentBox">
                 <h3>Spring Dress</h3>
                 <h2 className="price">$30.<small>99</small></h2>
-                <a href="#" className="buy">Buy Now</a>
+                <Button text="Buy Now"/>
             </div>
         </div>
 
@@ -45,7 +47,7 @@ const Newcollections = () => {
                   <p>Summer 21 offers an iconic wardrobe so varied that the Tara woman can explore all of its facets, experience them, and become them. Lace collars, scallop edges, eyelet embroidery flirt with each other.
                        The sparkle of a jewel and cascading lurex, rhinestones and lamés mix with bourgeois checks, in the continuity of winter on oversized jackets or blazers with a crest. High-waisted flared pants, pointed collars and midi dresses push a resolutely 70s style.
                        Prints are meant to be fresh on light backgrounds suggesting sunny day.
-                       </p>
+                  </p>
         </div>
 
         <div className="card">
@@ -56,7 +58,7 @@ const Newcollections = () => {
             <div className="contentBox">
                 <h3>Dress Hats</h3>
                 <h2 className="price">$50.<small>99</small></h2>
-                <a href="#" className="buy">Buy Now</a>
+                <Button text="Buy Now"/>
             </div>
         </div>
 
@@ -68,7 +70,7 @@ const Newcollections = () => {
             <div className="contentBox">
                 <h3>Shirt</h3>
                 <h2 className="price">$15.<small>99</small></h2>
-                <a href="#" className="buy">Buy Now</a>
+                <Button text="Buy Now"/>
             </div>
         </div>
 
@@ -79,7 +81,7 @@ const Newcollections = () => {
             <div className="contentBox">
                 <h3>T-shirt</h3>
                 <h2 className="price">$21.<small>99</small></h2>
-                <a href="#" className="buy">Buy Now</a>
+                <Button text="Buy Now"/>
             </div>
         </div>
 
@@ -91,7 +93,7 @@ const Newcollections = () => {
             <div className="contentBox">
                 <h3>Jeans</h3>
                 <h2 className="price">$50.<small>99</small></h2>
-                <a href="#" className="buy">Buy Now</a>
+                <Button text="Buy Now"/>
             </div>
         </div>
 
@@ -103,7 +105,7 @@ const Newcollections = () => {
             <div className="contentBox">
                 <h3>Dresses</h3>
                 <h2 className="price">$15.<small>99</small></h2>
-                <a href="#" className="buy">Buy Now</a>
+                <Button text="Buy Now"/>
             </div>
         </div>
 
@@ -114,12 +116,12 @@ const Newcollections = () => {
             <div className="contentBox">
                 <h3>T-shirt & Jacket</h3>
                 <h2 className="price">$21.<small>99</small></h2>
-                <a href="#" className="buy">Buy Now</a>
+                <Button text="Buy Now"/>
             </div>
          </div>
         </div>
     </section>  
-    )
-}
+    );
+};
 
-export default Newcollections
+export default Newcollections;
