@@ -1,91 +1,29 @@
-import React from "react";
-import Model15 from '../../images/Model15.jpg';
-import Model14 from '../../images/Model14.jpg';
-import Model13 from '../../images/Model13.jpg';
-
+import React, {useState} from "react";
+import Models from '../Data/Models';
+import AllCategories from 'components/AllCategoriesfilter/AllCategories';
+import ModelsCards from "components/ModelsCards/ModelsCards";
 import './NewcollectionsTree.css';
 
 
-const NewcollectionsTree = () => {
+    const AllCategoriesState = [...new Set(Models.map((model)=> model.category))];
+
+    console.log(AllCategories);
+
+    const NewcollectionsTree = () => {
+
+    const [categories, setCategories] = useState(AllCategoriesState);
+    const [Cards, setModelsCards] = useState(Models);
+
+    const filterModel = (category) => { 
+        const newModel = Models.filter((model)=> model.category === category );
+        setCategories(newModel);
+    }
+
     return (
     <section className="section-d">
     <h1> Nick Lauren Collections</h1>
-    <div className="cards">
-        <div className="card">
-            <h3 className="numb-title">001</h3>
-            <div className="imgBox">
-                <img src={Model13} alt="Model"/>
-            </div>
-
-            <div className="contentBox">
-                <h3>Robe By <span>Nick Lauren</span></h3>
-                <h2 className="price">$20.<span>99</span></h2>
-            </div>
-        </div>
-
-        <div className="card">
-        <h3 className="numb-title">002</h3>
-            <div className="imgBox">
-                <img src={Model15} alt="Model"/>
-            </div>
-
-            <div className="contentBox">
-                 <h3>Robe By <span>Nick Lauren</span></h3>
-                <h2 className="price">$20.<span>99</span></h2>
-            </div>
-        </div>
-
-        <div className="card">
-        <h3 className="numb-title">003</h3>
-            <div className="imgBox">
-                <img src={Model14} alt="Model"/>
-            </div>
-
-            <div className="contentBox">
-                <h3>Robe By <span>Nick Lauren</span></h3>
-                <h2 className="price">$20.<span>99</span></h2>
-            </div>
-        </div>
-    </div>
-
-    <div className="cards">
-        
-        <div className="card">
-            <h3 className="numb-title">001</h3>
-            <div className="imgBox">
-                <img src={Model13} alt="Model"/>
-            </div>
-
-            <div className="contentBox">
-                <h3>Robe By <span>Nick Lauren</span></h3>
-                <h2 className="price">$20.<span>99</span></h2>
-            </div>
-        </div>
-
-        <div className="card">
-        <h3 className="numb-title">002</h3>
-            <div className="imgBox">
-                <img src={Model15} alt="Model"/>
-            </div>
-
-            <div className="contentBox">
-                 <h3>Robe By <span>Nick Lauren</span></h3>
-                <h2 className="price">$20.<span>99</span></h2>
-            </div>
-        </div>
-
-        <div className="card">
-        <h3 className="numb-title">003</h3>
-            <div className="imgBox">
-                <img src={Model14} alt="Model"/>
-            </div>
-
-            <div className="contentBox">
-                <h3>Robe By <span>Nick Lauren</span></h3>
-                <h2 className="price">$20.<span>99</span></h2>
-            </div>
-        </div>
-    </div>
+    <AllCategories filterModel={filterModel} categories={categories}  />
+    <ModelsCards Cards={Cards} />
     </section>
 
     );
