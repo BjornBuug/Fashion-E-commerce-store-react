@@ -1,4 +1,5 @@
 import React from 'react'
+import './AllCategories.css'
 
 const AllCategories = ({filterModel, categories}) => {
     return (

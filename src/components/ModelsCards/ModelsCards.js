@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import './ModelsCards.css';
 
 const ModelsCards = ({Cards}) => {
     return (
@@ -16,7 +18,7 @@ const ModelsCards = ({Cards}) => {
 
                     <div className="contentBox">
                     <h3>{item} <span>{artist}</span></h3>
-                     <h2 className="price">{price}<span>99</span></h2>
+                     <h2 className="price">${price}.<span>99</span></h2>
                     </div>
                     </div>
                 )

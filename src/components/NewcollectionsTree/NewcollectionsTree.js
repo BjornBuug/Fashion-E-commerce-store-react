@@ -16,7 +16,7 @@ import './NewcollectionsTree.css';
 
     const filterModel = (category) => { 
         const newModel = Models.filter((model)=> model.category === category );
-        setCategories(newModel);
+        setModelsCards(newModel);
     }
 
     return (
