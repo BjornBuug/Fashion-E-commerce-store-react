@@ -16,7 +16,6 @@ function App() {
     <Newcollections/>
     <NewcollectionsTwo/>
     <NewcollectionsTree/>
-    
     </>
   );
 }

@@ -2,23 +2,23 @@
 const Models = [
     {
         id: 1,
-        category: 'Jacket',
+        category: 'Pants',
         numTitle: 111, 
-        item: 'Robe By',
+        item: 'Pant By',
         artist: 'Nick Karen',
-        price: 20,
+        price: 50,
         image: './FilterImages/Model13.jpg',
 
     }, 
 
     {
         id: 2,
-        category: 'Shirt',
+        category: 'Dress',
         numTitle: 222, 
-        item: 'Shirt By',
+        item: 'Dress By',
         artist: 'Karen Hea',
-        price: 60,
-        image: './FilterImages/Model14.jpg',
+        price: 45,
+        image: './FilterImages/Model17.jpg',
 
     }, 
 
@@ -29,28 +29,28 @@ const Models = [
         item: 'Robe By',
         artist: 'Hea wayne',
         price: 12,
-        image: './FilterImages/Model15.jpg',
+        image: './FilterImages/Model18.jpg',
     },
 
     {
         id: 4,
-        category: 'Jacket',
+        category: 'Pants',
         numTitle: 111, 
-        item: 'Robe By',
+        item: 'Pant By',
         artist: 'Nick Karen',
         price: 20,
-        image: './FilterImages/Model13.jpg',
+        image: './FilterImages/Model14.jpg',
 
     }, 
 
     {
         id: 5,
-        category: 'Shirt',
+        category: 'Dress',
         numTitle: 222, 
-        item: 'Shirt By',
+        item: 'Dress By',
         artist: 'Karen Hea',
-        price: 60,
-        image: './FilterImages/Model14.jpg',
+        price: 65,
+        image: './FilterImages/Model16.jpg',
 
     }, 
 
@@ -63,7 +63,9 @@ const Models = [
         price: 12,
         image: './FilterImages/Model15.jpg',
     },
+
+    
 ]; 
 
 
-export default Models; 
+export default Models;

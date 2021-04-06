@@ -7,8 +7,8 @@ const ModelsCards = ({Cards}) => {
         <div className="cards">
             {Cards.map((card)=> {
                 const {id, numTitle, item, artist, price, image} = card;
-
                 return (
+                    
                     <div className="card" key={id}>
                     <h3 className="numb-title">{numTitle}</h3>
 
@@ -23,7 +23,6 @@ const ModelsCards = ({Cards}) => {
                     </div>
                 )
             })}
-            
         </div>
     )
 }

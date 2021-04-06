@@ -1,6 +1,6 @@
 import React from 'react'
 import {useGlobalContext} from './Globalcontext';
-import Button from '../components/Button/Button'
+import Button from '../components/Button/Button';
 
 
 const Hero = () => {
@@ -17,7 +17,8 @@ const Hero = () => {
                     Our extensive selection of gems feature ten different shapes as well as 
                     a range of carat sizes to suit every preference
                     </p>
-                <button className="btn">Shop now</button>
+                    <Button text="SHOW NOW"/>
+                
                 </article>
 
                 {/* <article className="hero-images">

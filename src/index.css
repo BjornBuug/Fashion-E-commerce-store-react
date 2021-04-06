@@ -179,6 +179,7 @@ Stripe Styles
   letter-spacing: 1px;
   line-height: 60px;
   
+  
 }
 .hero-info p {
   max-width: 20em;
@@ -269,10 +270,14 @@ Stripe Styles
   }
   .hero-info h1 {
     max-width: 100%;
-    font-size: 4rem;
-    line-height: 70px;
+    font-size: 5rem;
+    line-height: 86px;
   
   }
+
+  .hero-info p {
+    font-size: 1.60rem;
+}
   .hero-images {
     align-self: end;
   }

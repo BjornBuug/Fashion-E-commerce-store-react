@@ -7,7 +7,7 @@ import model5 from '../../images/Model5.jpg';
 import model6 from '../../images/Model6.jpg';
 import model7 from '../../images/Model7.jpg';
 import model8 from '../../images/Model8.jpg';
-import Button from '../Button/Button'
+import Button from '../Button/Button';
 
 
 import  './Newcollections.css';
