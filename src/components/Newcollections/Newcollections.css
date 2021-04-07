@@ -18,7 +18,7 @@
 .section-b .cards {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
+    grid-gap: 25px;
     justify-content: center;
     padding: 50px;
     background: #F0E3E3;
@@ -32,6 +32,7 @@
     height: 682px;
     background: #F9FAF9;
     margin-bottom: 70px;
+    margin: auto;
 }
 
 
@@ -79,8 +80,8 @@
 
 
 .section-b .cards .collections-text {
-    margin-top: 20px;
-    width: 100%;
+    margin-top: 10px;
+    width: 85%;
 }
 
 .section-b .cards .collections-text h1 {
@@ -94,7 +95,7 @@
 }
 
 .section-b .cards .collections-text p {
-    font-size: 20px;
+    font-size: 21px;
     padding-top: 12px;
     color: black;
     letter-spacing: 0.5px;

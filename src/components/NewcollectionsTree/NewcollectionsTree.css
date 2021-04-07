@@ -11,3 +11,18 @@
 }
 
 
+.section-d .cards .card {
+    position: relative;
+    width: 430px;
+    height: 603px;
+    margin: auto;
+}
+
+.section-d .cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 100px;
+    padding: 50px;
+    background: #fff;
+}
+

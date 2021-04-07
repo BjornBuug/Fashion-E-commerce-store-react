@@ -47,6 +47,7 @@ const Newcollections = () => {
                   <p>Summer 21 offers an iconic wardrobe so varied that the Tara woman can explore all of its facets, experience them, and become them. Lace collars, scallop edges, eyelet embroidery flirt with each other.
                        The sparkle of a jewel and cascading lurex, rhinestones and lamés mix with bourgeois checks, in the continuity of winter on oversized jackets or blazers with a crest. High-waisted flared pants, pointed collars and midi dresses push a resolutely 70s style.
                        Prints are meant to be fresh on light backgrounds suggesting sunny day.
+                       
                   </p>
         </div>
 

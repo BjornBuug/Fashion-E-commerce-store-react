@@ -7,7 +7,8 @@
 .section-c {
     background-color: #fff;
     color: black;
-    padding: 80px 0 70px;
+    padding: 80px 0px 20px 70px;
+    margin-bottom: 40px;
     
 }
 
@@ -22,7 +23,7 @@
 .section-c .row .col50 {
   position: relative;
   width: 50%;
-  margin-left: 100px;
+  margin-left: 76px;
 }
 
 .section-c .row .col50 h4 {
@@ -42,6 +43,7 @@
   font-size: 20px;
   letter-spacing: 0.4px;
   padding-bottom: 16px;
+  width: 98%;
 }
 
 .section-c .row .col50 .img-box {
@@ -52,6 +54,7 @@
 
 .section-c .row .col50 .img-box img {
   max-width: 100%;
+  margin-left: 65px;
 }
 
 

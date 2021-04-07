@@ -16,7 +16,7 @@ Global Styles
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background: hsl(210, 36%, 96%);
+  /* background: hsl(210, 36%, 96%); */
   
   line-height: 1.5;
   font-size: 0.875rem;
@@ -270,13 +270,13 @@ Stripe Styles
   }
   .hero-info h1 {
     max-width: 100%;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 86px;
   
   }
 
   .hero-info p {
-    font-size: 1.60rem;
+    font-size: 1.25rem;
 }
   .hero-images {
     align-self: end;
