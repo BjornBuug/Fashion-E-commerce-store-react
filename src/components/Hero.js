@@ -17,7 +17,7 @@ const Hero = () => {
                     Our extensive selection of gems feature ten different shapes as well as 
                     a range of carat sizes to suit every preference
                     </p>
-                    {/* <Button text="SHOW NOW" /> */}
+                    <Button color="black" backgroundColor="#fff" text="SHOW NOW" />
                 
                 </article>
             </div>

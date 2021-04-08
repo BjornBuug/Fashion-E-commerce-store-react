@@ -58,7 +58,6 @@
 }
 
 
-
 @media (max-width : 991px) {
   .section-c .row {
     display: flex;
@@ -67,10 +66,10 @@
     flex-direction: column;
   }
 
-  .section-b h1 {
-    text-align: left;
-    padding-left: 26px;
+  .section-c {
+    padding: 80px 0px 20px 20px;
 }
+
 
   .section-c .row .col50 {
     width: 100%;
@@ -90,6 +89,10 @@
   margin-top: 50px;
   max-width: 85%;
  
+}
+
+.section-c .row .col50 .img-box img {
+  margin-left: 0px;
 }
 
 }

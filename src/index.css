@@ -155,13 +155,13 @@ Stripe Styles
   position: relative;
   min-height: 100vh;
   margin-top: -5rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
+  display: flex;
+  justify-items: flex-start;
+  padding-left: 100px;
   background: url(./images/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 
 .hero-center {
@@ -245,6 +245,7 @@ Stripe Styles
   }
   .hero-center {
     grid-template-columns: 2fr 1fr;
+    margin-left: -57px;
   }
 
   .hero-info h1 {
@@ -271,13 +272,16 @@ Stripe Styles
   .hero-info h1 {
     max-width: 100%;
     font-size: 4rem;
-    line-height: 86px;
+    line-height: 69px
   
   }
 
   .hero-info p {
     font-size: 1.25rem;
+    margin-bottom: 31px;
+    letter-spacing: 1px;
 }
+
   .hero-images {
     align-self: end;
   }
@@ -287,7 +291,7 @@ Stripe Styles
 }
 @media screen and (min-width: 1400px) {
   .hero-center {
-    padding-bottom: 20vh;
+    padding-bottom: 23vh;
   }
   .phone-img {
     width: 17rem;

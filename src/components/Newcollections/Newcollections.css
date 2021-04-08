@@ -124,6 +124,12 @@
         font-size: 20px;
         max-width: 100%;
     }
+
+    .section-b h1 {
+        text-align: left;
+        padding-left: 43px;
+    }
+
   
 }
 
