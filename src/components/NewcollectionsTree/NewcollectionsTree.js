@@ -4,7 +4,6 @@ import AllCategories from 'components/AllCategoriesfilter/AllCategories';
 import ModelsCards from "components/ModelsCards/ModelsCards";
 import './NewcollectionsTree.css';
 
-
     const AllCategoriesState = ['all', ...new Set(Models.map((model)=> model.category))];
 
     console.log(AllCategories);

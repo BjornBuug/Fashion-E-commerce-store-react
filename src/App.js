@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import Newcollections from './components/Newcollections/Newcollections';
 import NewcollectionsTwo from './components/NewcollectionsTwo/NewcollectionsTwo';
 import NewcollectionsTree from './components/NewcollectionsTree/NewcollectionsTree';
-
+import Reviews from './components/Reviews/Reviews';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
     <Newcollections/>
     <NewcollectionsTwo/>
     <NewcollectionsTree/>
+    <Reviews/>
     </>
   );
 }
