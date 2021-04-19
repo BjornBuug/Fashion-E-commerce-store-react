@@ -7,6 +7,7 @@ import NewcollectionsTwo from './components/NewcollectionsTwo/NewcollectionsTwo'
 import NewcollectionsTree from './components/NewcollectionsTree/NewcollectionsTree';
 import Reviews from './components/Reviews/Reviews';
 
+
 function App() {
   return (
     <>
