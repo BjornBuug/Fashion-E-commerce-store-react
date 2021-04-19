@@ -5,7 +5,9 @@ import './Reviews.css';
 
 const Reviews = () => {
     const [reviewData, setReviewData] = useState(ReviewsData);
+
     return (
+
     <section className="reviews">
     <div className="title">
         <h2>Reviews</h2>
@@ -17,20 +19,15 @@ const Reviews = () => {
 
           return (
             <article key ={id}>
-            <img src={image} alt="Maria hugo" className="person"/>
+            <img src={image} alt="Maria hugo" className="person-img"/>
              <h4>{name}</h4>
              <p className ="title">{title}</p>
              <p className="text">{quote}</p>
             </article>
           )
        })};
-        
+    </div>  
 
-    </div>
-
-    
-
-        
     </section>
     )
 }
