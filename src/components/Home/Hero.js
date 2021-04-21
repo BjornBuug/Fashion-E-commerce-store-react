@@ -1,6 +1,8 @@
 import React from 'react'
-import {useGlobalContext} from './Globalcontext';
-import Button from '../components/Button/Button';
+import {useGlobalContext} from '../Globalcontext';
+import Button from '../Button/Button';
+
+import './Hero.css';
 
 
 const Hero = () => {
@@ -25,4 +27,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;
