@@ -1,11 +1,11 @@
 import './App.css';
 import Hero from './components/Home/Hero';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar';
 import Newcollections from './components/Newcollections/Newcollections';
 import NewcollectionsTwo from './components/NewcollectionsTwo/NewcollectionsTwo';
 import NewcollectionsTree from './components/NewcollectionsTree/NewcollectionsTree';
-import Reviews from './components/Reviews/Reviews';
+// import Reviews from './components/Reviews/Reviews';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
     <Newcollections/>
     <NewcollectionsTwo/>
     <NewcollectionsTree/>
-    <Reviews/>
+    {/* <Reviews/> */}
     </>
   );
 }
